@@ -1,0 +1,402 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>简历</title>
+
+    <style>
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            margin: 0;
+
+            padding: 0;
+
+            background-color: #f4f4f4;
+
+        }
+
+        .container {
+
+            width: 80%;
+
+            margin: auto;
+
+            overflow: hidden;
+
+        }
+
+        header {
+
+            background: #50b3a2;
+
+            color: #ffffff;
+
+            padding-top: 30px;
+
+            min-height: 70px;
+
+            border-bottom: #e8491d 3px solid;
+
+        }
+
+        header a {
+
+            color: #ffffff;
+
+            text-decoration: none;
+
+            text-transform: uppercase;
+
+            font-size: 16px;
+
+        }
+
+        header ul {
+
+            padding: 0;
+
+            list-style: none;
+
+        }
+
+        header li {
+
+            display: inline;
+
+            padding: 0 20px 0 20px;
+
+        }
+
+        header #branding {
+
+            float: left;
+
+        }
+
+        header #branding h1 {
+
+            margin: 0;
+
+        }
+
+        header nav {
+
+            float: right;
+
+            margin-top: 10px;
+
+        }
+
+        header .highlight, header .current a {
+
+            color: #e8491d;
+
+            font-weight: bold;
+
+        }
+
+        header a:hover {
+
+            color: #ffffff;
+
+            font-weight: bold;
+
+        }
+
+        #showcase {
+
+            min-height: 400px;
+
+            background: url('resume.jpg') no-repeat 0 -100px;
+
+            text-align: center;
+
+            color: #ffffff;
+
+        }
+
+        #showcase h1 {
+
+            margin-top: 100px;
+
+            font-size: 55px;
+
+            margin-bottom: 10px;
+
+        }
+
+        #showcase p {
+
+            font-size: 20px;
+
+        }
+
+        #main {
+
+            padding: 15px;
+
+            color: #333333;
+
+        }
+
+        #main h2 {
+
+            color: #50b3a2;
+
+        }
+
+        #main p {
+
+            font-size: 18px;
+
+        }
+
+        #main .profile {
+
+            margin-bottom: 20px;
+
+        }
+
+        #main .profile h2 {
+
+            font-size: 30px;
+
+        }
+
+        #main .profile p {
+
+            font-size: 16px;
+
+        }
+
+        #main .contact {
+
+            margin-bottom: 20px;
+
+        }
+
+        #main .contact h2 {
+
+            font-size: 30px;
+
+        }
+
+        #main .contact ul {
+
+            list-style: none;
+
+            padding: 0;
+
+        }
+
+        #main .contact ul li {
+
+            margin-bottom: 5px;
+
+        }
+
+        #main .contact ul li::before {
+
+            content: '✓';
+
+            color: #50b3a2;
+
+            padding-right: 8px;
+
+        }
+
+        #main .education {
+
+            margin-bottom: 20px;
+
+        }
+
+        #main .education h2 {
+
+            font-size: 30px;
+
+        }
+
+        #main .education .school {
+
+            margin-bottom: 10px;
+
+        }
+
+        #main .education .school h3 {
+
+            margin: 0;
+
+            font-size: 20px;
+
+        }
+
+        #main .education .school p {
+
+            font-size: 16px;
+
+        }
+
+        #main .work {
+
+            margin-bottom: 20px;
+
+        }
+
+        #main .work h2 {
+
+            font-size: 30px;
+
+        }
+
+        #main .work .job {
+
+            margin-bottom: 10px;
+
+        }
+
+        #main .work .job h3 {
+
+            margin: 0;
+
+            font-size: 20px;
+
+        }
+
+        #main .work .job p {
+
+            font-size: 16px;
+
+        }
+
+        footer {
+
+            background: #50b3a2;
+
+            color: white;
+
+            text-align: center;
+
+            padding: 10px;
+
+            position: relative;
+
+            bottom: 0;
+
+            width: 100%;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="container">
+
+            <div id="branding">
+
+                <h1>我的简历</h1>
+
+            </div>
+
+            <nav>
+
+                <ul>
+
+                    <li class="current">主页</li>
+
+                    <li>个人资料</li>
+
+                    <li>联系方式</li>
+
+                    <li>教育背景</li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+
+    <section id="showcase">
+
+        <div class="container">
+
+            <h1>柳贯一</h1>
+
+            <p>前端开发工程师</p >
+
+        </div>
+
+    </section>
+
+
+
+    <section id="main">
+
+        <div class="container">
+
+            <article class="profile">
+
+                <h2>个人资料</h2>
+
+                <p>喜欢唱、跳、rap、篮球</p >
+
+            </article>
+
+            
+
+            <article class="contact">
+
+                <h2>联系方式</h2>
+
+                <ul>
+
+                    <li>邮箱：2983236223@qq.com</li>
+
+                    <li>手机：19997919520</li>
+
+                </ul>
+
+            </article>
+
+            
+
+            <article class="education">
+
+                <h2>教育背景</h2>
+
+                <div class="school">
+
+                    <h3>广西工业职业技术学院</h3>
+
+                    <p>2023年9月 - 2026年6月</p >
+
+                </div>
+
+            </article>
+
+    </section>
+
+
+
+</body>
+
+</html>
